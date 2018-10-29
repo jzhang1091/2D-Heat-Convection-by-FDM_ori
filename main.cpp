@@ -4,6 +4,7 @@
  * This is the documentation for 2D Heat Convection Simulation Package. It contains all the relevant info.
  */
 #include <iostream>
+#include<conio.h>
 #include <fstream>
 
 /**
@@ -32,7 +33,7 @@ bool check_input (string inputfilename)
 
 int main()
 {
-    
+    clrscr();
     cout << "*****************************************************" << endl;
     cout << "* This package is for 2D-heat-convection simulation *" << endl;
     cout << "*****************************************************" << endl;
@@ -48,7 +49,7 @@ int main()
     	  cout << "Run ./readin inputfile ... to read the input" << endl;
         return 0;
     }
-    
+    getch();
     return 0;
 }
       
